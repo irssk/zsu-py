@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application</title>
+    <link rel="shortcut icon" href="/public/icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+        <nav class="nav">
+            <a href="/index.html" class="nav-link">Back</a>
+        </nav>
     
+        <div class="title">Help ZSU</div>
+
+        <form action="" class="postcard">
+            <div class="form-row">
+                <label for="name">Card number</label><input type="text" placeholder="**** **** **** ****" id="name" required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">CVV/CVC</label><input type="email" placeholder="***" id="email" required>
+            </div>
+
+            <div class="form-row">
+                <label for="message">MM/ГГ</label><textarea placeholder="XX/XX" id="message" required></textarea>
+            </div>
+
+            <div class="form-row">
+                <input type="submit" value="Donate !">
+            </div>
+        </form>
 </body>
 </html>

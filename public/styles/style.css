@@ -5,3 +5,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+ul {
+    margin: var(--margin-s);
+}
+
+a {
+    text-decoration: none;
+    color: var(--fourth-text-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+#app {
+    background: linear-gradient(darkmagenta , magenta);
+    font-family: var(--primary-ff);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-xs);
+}
+
+.logo {
+    width: 3rem;
+}
+
+.nav {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--secondary-ff);
+    color: var(--primary-text-color);
+}

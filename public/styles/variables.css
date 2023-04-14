@@ -1,4 +1,50 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/public/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
 :root {
-    --main-bg: darkmagenta;
-    --secondary-bg: cyan;
+    /* PADDING */
+    --padding-xxxl : 160px;
+    --padding-xxl : 60px;
+    --padding-xl : 50px;
+    --padding-l : 40px;
+    --padding-m : 30px;
+    --padding-s : 20px;
+    --padding-xs : 10px; 
+
+    /* MARGIN */
+    --margin-xxxl : 160px;
+    --margin-xxl : 60px;
+    --margin-xl : 50px;
+    --margin-l : 40px;
+    --margin-m : 30px;
+    --margin-s : 20px;
+    --margin-xs : 10px; 
+
+    /* FONT_FAMILY */
+    --primary-ff : "Montserrat";
+    --secondary-ff : "Poppins";
+
+    /* FONT_SIZE */
+    --fs-xl : 70px;
+    --fs-l : 42px;
+    --fs-m : 20px;
+    --fs-s : 18px;
+    --fs-xs : 16px; 
+
+    /* TEXT_COLOR */
+    --primary-text-color : rgb(119, 119, 119);
+    --secondary-text-color : rgba(46, 41, 39, 1) ;
+    --third-text-color : rgb(46, 41, 39);
+    --fourth-text-color : rgba(255, 255, 255, 1) ;
+    
+    /* BACKGROUND */
+    --primary-bg : #F5F5F5;
+    --secondary-bg : rgba(223, 223, 223, 1);
 }
